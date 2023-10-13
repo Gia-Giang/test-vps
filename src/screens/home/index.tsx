@@ -5,7 +5,8 @@ export default function HomeScreen() {
   return (
     <div className={styles.container}>
       <h1 className={styles.textLogo}>ONEBOX</h1>
-      <img src={Images.logo} alt="logo" className={styles.logo}/>
+      <img src={Images.logo} alt="logo" className={styles.logo} />
+      <h2>hello</h2>
     </div>
   );
 }
